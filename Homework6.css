@@ -1,0 +1,46 @@
+.search-result{
+    max-width: 750px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.people-also-ask {
+    margin-top: 20px;
+    margin-bottom: 20px;
+font-size: 20px;
+    box-shadow:  0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+.search-result>.people-also-ask>h1 {
+    color: darkgrey;
+    font-size: 20px;
+    font-weight:200;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin-bottom: -1px;
+}
+
+.search-result>.people-also-ask>ul>li {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin-bottom: -0.5px;
+
+
+}
+.search-result>div:first-child{
+    padding-bottom: 15px;
+}
+.search-result>div:nth-child(3) {
+    padding-top: 15px;
+}
+.search-result>div>a {
+    font-size: 20px;
+
+
+}
+.search-result>div>p {
+    color: seagreen
+}
+.search-result__time {
+    color: gray;
+font-size: 14px;
+}
+

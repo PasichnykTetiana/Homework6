@@ -21,7 +21,9 @@ li  {
     width: 100%;
     background-color: #F8F8F8;
     border-bottom: 1px solid lightgrey;
+
 }
+a {text-decoration: none;}
 .img {
     display: flex;
     width: 92px;
@@ -41,7 +43,9 @@ li  {
     display: inline-block;
     margin-right: 0.625rem;
     width: 500px;
+
 }
+.search-form__input:focus::placeholder {padding-left: 50px;}
 .header__container {
     display: flex;
     flex-direction: column;
@@ -74,7 +78,7 @@ li  {
     position: fixed;
     right: 0;
 }
-p {
+.results {
     margin-left: 100px;
     margin-top: 15px;
     color: darkgrey;
